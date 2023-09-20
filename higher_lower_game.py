@@ -370,7 +370,7 @@ while True:
   print(f"Compare B : {print_personality(person2)}")
   result = compare(person1 , person2)
 
-  user = input("Type A OR B :").lower()
+  user = input("Which One Have Highest Instagram Followers Type A OR B :").lower()
   os.system('cls')
 
   if user == result:
